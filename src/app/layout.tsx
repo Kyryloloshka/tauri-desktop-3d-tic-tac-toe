@@ -1,8 +1,8 @@
 import { Rubik, Rubik_Mono_One } from "next/font/google";
 import "./globals.css";
-import Header from "@/components/Header";
 import StoreProvider from "@/components/StoreProvider";
 import MainDragArea from "@/components/MainDragArea";
+import EscMenu from "@/components/EscMenu";
 
 export const rubikMonoOne = Rubik_Mono_One({
   weight: ["400"],
@@ -25,8 +25,8 @@ export default function RootLayout({
         suppressHydrationWarning={true}
       >
         <StoreProvider>
-          <Header />
           <MainDragArea>{children}</MainDragArea>
+          <EscMenu />
         </StoreProvider>
       </body>
     </html>

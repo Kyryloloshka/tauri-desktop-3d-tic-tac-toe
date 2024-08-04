@@ -22,7 +22,7 @@ const DialogQuit = () => {
         </Button>
       </DialogTrigger>
       <DialogContent
-        className={`sm:max-w-[425px] select-none bg-dark-2 shadow-primary border-primary-500/90`}
+        className={`sm:max-w-[425px] select-none bg-dark-2 shadow-primary border-primary-500/90 z-[1001]`}
       >
         <DialogTitle className={`${rubik.className} text-center py-4`}>
           <div

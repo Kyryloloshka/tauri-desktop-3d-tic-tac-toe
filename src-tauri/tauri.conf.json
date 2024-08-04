@@ -35,7 +35,7 @@
       "externalBin": [],
       "icon": ["icons/icon.icns", "icons/icon.ico"],
       "identifier": "com.kyryloloshka.3d-tic-tac-toe",
-      "longDescription": "",
+      "longDescription": "Welcome to the exciting world of Tic-Tac-Toe 3D! This game combines the classic Tic-Tac-Toe gameplay with a three-dimensional space, creating an engaging gameplay and a visual experience.",
       "macOS": {
         "entitlements": null,
         "exceptionDomain": "",
@@ -44,7 +44,7 @@
         "signingIdentity": null
       },
       "resources": [],
-      "shortDescription": "",
+      "shortDescription": "Classic Tic-Tac-Toe in 3D",
       "targets": "all",
       "windows": {
         "certificateThumbprint": null,
